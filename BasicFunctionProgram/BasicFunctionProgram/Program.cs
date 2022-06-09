@@ -11,6 +11,7 @@
             Console.WriteLine("4 for a harmonic number");
             Console.WriteLine("5 for a factors");
             Console.WriteLine("6 for a Quotient and Remainder");
+            Console.WriteLine("7 for a Swap Number ");
             int function = Convert.ToInt32(Console.ReadLine());
 
 
@@ -40,6 +41,10 @@
                 case 6:
                     Quotient_Remainder QuotientRemain = new Quotient_Remainder();
                     QuotientRemain.CompQuotient();
+                    break;
+                case 7:
+                    Swap_Number Swap = new Swap_Number();
+                    Swap.SwapTwoNumber();
                     break;
 
 

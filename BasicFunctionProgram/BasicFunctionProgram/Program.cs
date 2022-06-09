@@ -10,6 +10,7 @@
             Console.WriteLine("3 for a power of 2");
             Console.WriteLine("4 for a harmonic number");
             Console.WriteLine("5 for a factors");
+            Console.WriteLine("6 for a Quotient and Remainder");
             int function = Convert.ToInt32(Console.ReadLine());
 
 
@@ -36,7 +37,10 @@
                     Factors factor = new Factors();
                     factor.PrimeFactors();
                     break;
-
+                case 6:
+                    Quotient_Remainder QuotientRemain = new Quotient_Remainder();
+                    QuotientRemain.CompQuotient();
+                    break;
 
 
             }

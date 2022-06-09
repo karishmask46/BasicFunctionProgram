@@ -12,6 +12,7 @@
             Console.WriteLine("5 for a factors");
             Console.WriteLine("6 for a Quotient and Remainder");
             Console.WriteLine("7 for a Swap Number ");
+            Console.WriteLine("8 for a even and odd number ");
             int function = Convert.ToInt32(Console.ReadLine());
 
 
@@ -45,6 +46,10 @@
                 case 7:
                     Swap_Number Swap = new Swap_Number();
                     Swap.SwapTwoNumber();
+                    break;
+                case 8:
+                    Even_odd even = new Even_odd();
+                    even.evenOdd();
                     break;
 
 
